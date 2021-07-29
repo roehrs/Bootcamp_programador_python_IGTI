@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+    <title>Desafio Final IGTI</title>
+	<link href="/static/estilo.css" rel="stylesheet" text="text/css">
+	</head>
+	<body>
+		<h3>Previsão Diabetes</h3>
+		<form action ="/result" method="POST">
+			<fieldset>
+				<fieldset class="grupo">
+					<div class="campo">
+						<label for="gest">Número de Gestações</label>
+						<input type="text" id="gest" name="gest" style="width: 10em">
+					</div>
+					<div class="campo">
+						<label for="glic">Concentração de Glicose</label>
+						<input type="text" id="glic" name="glic" style="width: 10em">
+					</div>
+				</fieldset>
+				<fieldset class="grupo">
+					<div class="campo">
+						<label for="diast">Pressão diastólica</label>
+						<input type="text" id="diast" name="diast" style="width: 10em" placeholder="(mm Hg)">
+					</div>
+					<div class="campo">
+						<label for="edct">Espessura da dobra cutânea do tríceps</label>
+						<input type="text" id="edct" name="edct" style="width: 10em" placeholder="(mm)">
+					</div>
+				</fieldset>
+				<fieldset class="grupo">
+					<div class="campo">
+						<label for="insul">Nível de Insulina</label>
+						<input type="text" id="insul" name="insul" style="width: 10em" placeholder="(mu U/ml)">
+					</div>
+					<div class="campo">
+						<label for="imc">Índice de massa corporal</label>
+						<input type="text" id="imc" name="imc" style="width: 10em">
+					</div>
+				</fieldset>
+				<fieldset class="grupo">
+					<div class="campo">
+						<label for="hfd">Herança Genética</label>
+						<input type="text" id="hfd" name="hfd" style="width: 10em">
+					</div>
+					<div class="campo">
+						<label for="age">Idade</label>
+						<input type="text" id="age" name="age" style="width: 10em">
+					</div>
+				</fieldset>
+				<button class="botao" type="submit">Enviar</button>
+			</fieldset>
+		</form>
+	</body>
+</html>
